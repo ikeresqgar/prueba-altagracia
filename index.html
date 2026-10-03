@@ -1,79 +1,157 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Casa Andina | Cocina peruana en Madrid</title>
-<meta name="description" content="Restaurante peruano en Madrid, Madrid. Ceviche, lomo saltado, tequeños, arroz chaufa y postres caseros. Reserva mesa por WhatsApp en Casa Andina.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Casa Andina | Cocina peruana con alma familiar en Madrid</title>
+<meta name="description" content="Casa Andina es un restaurante peruano de ambiente familiar en Madrid. Ceviche, lomo saltado, arroz chaufa y platos para compartir. Reserva por WhatsApp.">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Casa Andina">
-<meta name="geo.region" content="ES-MD">
-<meta name="geo.placename" content="Madrid">
-<meta name="geo.position" content="40.1760554;-3.687148">
-<meta name="ICBM" content="40.1760554, -3.687148">
+<meta name="theme-color" content="#14352d">
 <meta property="og:type" content="restaurant">
-<meta property="og:title" content="Casa Andina | Cocina peruana en Madrid">
-<meta property="og:description" content="Cocina peruana con alma familiar en Madrid. Ceviche, lomo saltado, arroz chaufa y mucho más. Reserva por WhatsApp.">
+<meta property="og:title" content="Casa Andina | Cocina peruana con alma familiar">
+<meta property="og:description" content="Sabores peruanos, mesa compartida y una casa a la que apetece volver. Reserva por WhatsApp.">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Casa Andina | Madrid">
 <meta name="twitter:description" content="Cocina peruana con alma familiar. Reserva mesa por WhatsApp.">
-<meta name="theme-color" content="#183b32">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
-:root{--cream:#f3eee3;--paper:#fbf8f1;--green:#183b32;--green2:#234e41;--terracotta:#b9573d;--ink:#1d211d;--muted:#6f756d;--line:rgba(24,59,50,.16);--serif:"DM Serif Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.5}img{display:block;width:100%;object-fit:cover}a{text-decoration:none;color:inherit}.container{width:min(1180px,calc(100% - 40px));margin:auto}
-.nav{position:fixed;z-index:50;top:0;left:0;right:0;padding:20px 0;color:#fff;transition:.35s;background:linear-gradient(rgba(0,0,0,.34),transparent)}
-.nav.scrolled{background:rgba(24,59,50,.96);padding:14px 0;backdrop-filter:blur(12px)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.brand{font-family:var(--serif);font-size:28px;letter-spacing:.03em}.links{display:flex;gap:30px;font-size:13px}.links a{opacity:.9}.reserve{border:1px solid rgba(255,255,255,.55);padding:11px 17px;border-radius:100px;font-size:13px;font-weight:700}.hero{min-height:100vh;position:relative;color:#fff;display:flex;align-items:flex-end;overflow:hidden;background:#173a31}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,19,15,.18),rgba(8,19,15,.76));z-index:1}.hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2200&q=85') center/cover;transform:scale(1.04)}
-.hero-content{position:relative;z-index:2;padding:150px 0 76px;max-width:850px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700;margin-bottom:20px;opacity:.85}.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(62px,9vw,126px);line-height:.84;margin:0 0 28px;letter-spacing:-.035em}.hero h1 em{color:#e7b49f}.hero p{font-size:19px;max-width:620px;color:rgba(255,255,255,.86);margin:0 0 32px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border-radius:100px;font-weight:700;font-size:13px;transition:.25s}.btn.primary{background:#e8b39d;color:#183b32}.btn.secondary{border:1px solid rgba(255,255,255,.5);color:#fff}.btn:hover{transform:translateY(-2px)}.hero-meta{display:flex;gap:25px;margin-top:42px;font-size:12px;color:rgba(255,255,255,.75)}.rating{font-weight:700;color:#fff}.text-loop-bar{background:var(--terracotta);color:#fff;min-height:82px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
-.text-loop{position:relative;width:100%;height:58px;display:flex;align-items:center;overflow:hidden}
-.text-loop-track{display:flex;align-items:center;width:max-content;white-space:nowrap;will-change:transform;animation:textLoopInfinite 28s linear infinite}
-.text-loop-group{display:flex;align-items:center;flex:none}
-.text-loop-item{font-family:var(--serif);font-size:clamp(28px,3vw,42px);line-height:1;display:inline-flex;align-items:center;justify-content:center;padding:0 28px;opacity:.98;flex:none}
-.text-loop-dot{font-family:var(--sans);font-size:16px;opacity:.6;flex:none}
-.text-loop:before,.text-loop:after{content:"";position:absolute;z-index:2;top:0;bottom:0;width:120px;pointer-events:none}
-.text-loop:before{left:0;background:linear-gradient(90deg,var(--terracotta),transparent)}
-.text-loop:after{right:0;background:linear-gradient(-90deg,var(--terracotta),transparent)}
-@keyframes textLoopInfinite{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
-@media(max-width:640px){.text-loop-bar{min-height:72px}.text-loop{height:50px}.text-loop-item{font-size:25px;padding:0 22px}.text-loop-dot{font-size:13px}.text-loop:before,.text-loop:after{width:65px}}
-.text-loop:before{left:0;background:linear-gradient(90deg,var(--terracotta),transparent)}
-.text-loop:after{right:0;background:linear-gradient(-90deg,var(--terracotta),transparent)}
-.section{padding:120px 0;content-visibility:auto;contain-intrinsic-size:800px}.intro{background:var(--cream)}.intro-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:90px;align-items:end}.display{font-family:var(--serif);font-weight:400;font-size:clamp(42px,5.5vw,76px);line-height:.98;letter-spacing:-.025em;margin:0}.display em{color:var(--terracotta)}.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700;color:var(--terracotta);margin-bottom:18px}.body{color:#62675f;font-size:17px;max-width:550px}.story{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--green);color:#fff}.story-img{min-height:700px;background:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1500&q=85') center/cover}.story-copy{padding:90px clamp(30px,7vw,100px);display:flex;flex-direction:column;justify-content:center}.story-copy .display{max-width:600px}.story-copy .body{color:rgba(255,255,255,.72)}.pillars{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.16);margin-top:55px}.pillar{padding:28px 25px 0 0}.pillar strong{display:block;font-family:var(--serif);font-size:28px;margin-bottom:8px}.pillar p{font-size:13px;color:rgba(255,255,255,.6);margin:0}
-.menu-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:55px}.menu-head .body{max-width:420px}.dish-grid{display:grid;grid-template-columns:1.45fr .8fr .8fr;grid-auto-rows:250px;gap:16px}.dish{position:relative;overflow:hidden;min-height:250px}.dish.large{grid-row:span 2}.dish.wide{grid-column:span 2}.dish img{height:100%;transition:transform .7s}.dish:hover img{transform:scale(1.05)}.dish:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.72))}.dish-info{position:absolute;z-index:2;left:22px;right:22px;bottom:20px;color:#fff}.dish-info h3{font-family:var(--serif);font-size:31px;font-weight:400;margin:0 0 3px}.dish-info p{font-size:12px;margin:0;color:rgba(255,255,255,.8)}
-.quote{background:var(--cream);text-align:center;padding:130px 20px}.quote-mark{font-family:var(--serif);font-size:75px;color:var(--terracotta);line-height:.5}.quote h2{font-family:var(--serif);font-size:clamp(38px,5vw,68px);font-weight:400;line-height:1.02;max-width:920px;margin:25px auto}.quote p{color:var(--muted);font-size:14px}
-.reviews{padding:120px 0;background:#fff}.reviews-top{display:flex;justify-content:space-between;align-items:end;margin-bottom:55px}.score{display:flex;align-items:end;gap:13px}.score b{font-family:var(--serif);font-size:70px;font-weight:400;line-height:.8}.stars{letter-spacing:3px;color:var(--terracotta);font-size:18px}.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.review{background:#fff;padding:38px}.review .stars{font-size:14px;margin-bottom:28px}.review blockquote{font-family:var(--serif);font-size:25px;line-height:1.15;margin:0 0 25px}.review small{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.13em}
-.gallery{padding:0;display:grid;grid-template-columns:1.1fr .9fr}.gallery img{height:620px}.gallery .right{display:grid;grid-template-rows:1fr 1fr}.gallery .right img{height:310px}
-.visit{background:var(--green);color:#fff;padding:110px 0}.visit-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:90px}.visit .body{color:rgba(255,255,255,.68)}.info-block{border-top:1px solid rgba(255,255,255,.18);padding:22px 0;margin-top:30px}.info-block h3{font-family:var(--serif);font-weight:400;font-size:27px;margin:0 0 13px}.hours{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px;color:rgba(255,255,255,.72)}.hours b{color:#fff;font-weight:500}
-.cta{padding:120px 0;text-align:center;background:var(--terracotta);color:#fff}.cta .display{max-width:850px;margin:0 auto 30px}.cta p{max-width:560px;margin:0 auto 30px;color:rgba(255,255,255,.8)}.cta .btn.primary{background:#fff;color:var(--green)}
-footer{background:#102d27;color:#fff;padding:55px 0 30px}.footer-grid{display:flex;justify-content:space-between;gap:50px}.footer-brand{font-family:var(--serif);font-size:38px}.footer-note{max-width:340px;color:rgba(255,255,255,.55);font-size:13px}.footer-links{display:flex;gap:24px;font-size:12px;color:rgba(255,255,255,.75)}.copyright{border-top:1px solid rgba(255,255,255,.12);margin-top:45px;padding-top:20px;font-size:11px;color:rgba(255,255,255,.4);display:flex;justify-content:space-between}
-.mobile-bar{display:none}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:60;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:25px;font-weight:700}.whatsapp span{position:absolute;right:70px;background:var(--green);padding:9px 12px;border-radius:7px;font-size:11px;white-space:nowrap;opacity:0;transform:translateX(8px);transition:.2s}.whatsapp:hover span{opacity:1;transform:none}
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.reveal.visible{opacity:1;transform:none}
-.mobile-bar{position:fixed;display:none;z-index:55;left:10px;right:10px;bottom:10px;background:rgba(16,45,39,.97);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:7px;box-shadow:0 12px 35px rgba(0,0,0,.25);grid-template-columns:repeat(3,1fr);gap:5px}.mobile-bar a{color:#fff;text-align:center;padding:10px 5px;font-size:10px;font-weight:700;border-radius:12px}.mobile-bar a:first-child{background:#e8b39d;color:#183b32}.faq{background:#f3eee3;padding:100px 0}.faq-grid{max-width:850px;margin:50px auto 0;border-top:1px solid var(--line)}.faq-item{border-bottom:1px solid var(--line);padding:22px 0}.faq-item h3{font-family:var(--serif);font-size:24px;font-weight:400;margin:0 0 7px}.faq-item p{font-size:14px;color:var(--muted);margin:0;max-width:700px}@media(max-width:800px){.links{display:none}.mobile-bar{display:grid}.container{width:min(100% - 28px,1180px)}.nav{padding:16px 0}.brand{font-size:24px}.hero-content{padding:145px 0 48px}.hero h1{font-size:clamp(54px,15vw,72px)}.hero p{font-size:16px;max-width:500px}.hero-meta{gap:14px;flex-wrap:wrap}.section{padding:82px 0;contain-intrinsic-size:650px}.intro-grid,.story,.visit-grid{grid-template-columns:1fr;gap:45px}.intro-grid .body{margin-top:10px}.story-img{min-height:460px}.story-copy{padding:70px 28px}.pillars{grid-template-columns:1fr;gap:20px}.pillar{padding:20px 0 0}.menu-head,.reviews-top{display:block}.menu-head .body{margin-top:20px}.dish-grid{grid-template-columns:1fr 1fr;grid-auto-rows:190px}.dish.large{grid-row:span 2}.dish.wide{grid-column:span 2}.dish-info h3{font-size:24px}.reviews-grid{grid-template-columns:1fr}.review{padding:30px}.gallery{grid-template-columns:1fr}.gallery img{height:430px}.gallery .right img{height:280px}.hours{grid-template-columns:1fr}.footer-grid{display:block}.footer-links{margin-top:25px;flex-wrap:wrap}.copyright{display:block}.copyright span{display:block;margin-top:8px}.quote{padding:90px 20px}}
-</style>
+:root{
+  --paper:#f7f2e9;--paper-2:#efe6d7;--ink:#1d241f;--muted:#667069;--green:#14352d;--green-2:#1e493c;--terra:#b8563e;--peach:#e9b49d;--white:#fffdf8;
+  --line:rgba(20,53,45,.16);--serif:"DM Serif Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+body.menu-open{overflow:hidden}
+::selection{background:var(--terra);color:#fff}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:var(--paper)}::-webkit-scrollbar-thumb{background:var(--green-2);border:3px solid var(--paper);border-radius:99px}
+img{display:block;width:100%;object-fit:cover}a{color:inherit;text-decoration:none}button{font:inherit}.container{width:min(1180px,calc(100% - 40px));margin-inline:auto}
+.skip-link{position:fixed;left:16px;top:12px;z-index:1000;padding:10px 14px;background:#fff;color:var(--green);transform:translateY(-150%);transition:.2s}.skip-link:focus{transform:none}
+:focus-visible{outline:3px solid var(--peach);outline-offset:4px}
 
+.nav{position:fixed;inset:0 0 auto;z-index:60;color:#fff;transition:background .35s,padding .35s,box-shadow .35s;padding:22px 0;background:linear-gradient(180deg,rgba(6,20,16,.54),transparent)}
+.nav.scrolled{background:rgba(20,53,45,.94);padding:13px 0;box-shadow:0 14px 34px rgba(8,25,20,.14);backdrop-filter:blur(14px)}
+.nav-inner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:38px}.brand{font-family:var(--serif);font-size:27px;letter-spacing:.025em;white-space:nowrap}.links{display:flex;justify-content:center;gap:30px;font-size:13px}.links a{position:relative;opacity:.84;padding:8px 0}.links a:after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1px;background:currentColor;transition:right .3s var(--ease)}.links a:hover:after,.links a:focus-visible:after{right:0}.links a:hover{opacity:1}
+.reserve,.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border-radius:999px;font-weight:700;font-size:13px;transition:transform .25s var(--ease),background .25s,color .25s,border-color .25s}.reserve{border:1px solid rgba(255,255,255,.5)}.reserve:hover,.btn:hover{transform:translateY(-2px)}
+.menu-toggle{display:none;border:0;background:transparent;color:#fff;width:44px;height:44px;padding:9px;cursor:pointer}.menu-toggle span{display:block;height:1px;background:currentColor;margin:6px 0;transition:.25s}
+
+.hero{min-height:100svh;position:relative;color:#fff;display:flex;align-items:flex-end;overflow:hidden;background:var(--green)}
+.hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(7,19,15,.18) 0%,rgba(7,19,15,.32) 44%,rgba(7,19,15,.83) 100%)}
+.hero-bg{position:absolute;inset:-3%;background:url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2200&q=86') center 46%/cover;transform:scale(1.03);will-change:transform}
+.hero-content{position:relative;z-index:2;padding:160px 0 72px}.hero-layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:72px;align-items:end}.hero-main{max-width:920px}.hero-location{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.74);margin-bottom:18px}.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(58px,8.4vw,112px);line-height:.88;letter-spacing:-.035em;margin:0;max-width:980px;text-wrap:balance}.hero h1 em{color:var(--peach);font-weight:400}.hero-copy{font-size:18px;max-width:610px;color:rgba(255,255,255,.8);margin:28px 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn.primary{background:var(--peach);color:var(--green)}.btn.secondary{border:1px solid rgba(255,255,255,.48);color:#fff}.btn.secondary:hover{background:#fff;color:var(--green);border-color:#fff}.hero-aside{border-left:1px solid rgba(255,255,255,.24);padding-left:26px;padding-bottom:6px}.hero-aside strong{font-family:var(--serif);font-weight:400;font-size:34px;display:block}.hero-aside p{font-size:12px;color:rgba(255,255,255,.68);margin:6px 0 22px}.hero-aside a{display:inline-flex;font-size:12px;font-weight:700;border-bottom:1px solid currentColor;padding-bottom:3px}.scroll-cue{position:absolute;right:26px;bottom:28px;z-index:3;font-size:10px;letter-spacing:.16em;text-transform:uppercase;writing-mode:vertical-rl;color:rgba(255,255,255,.6)}
+
+.marquee{background:var(--terra);color:#fff;overflow:hidden;border-block:1px solid rgba(255,255,255,.13)}.marquee-track{display:flex;width:max-content;animation:marquee 30s linear infinite;will-change:transform}.marquee-group{display:flex;align-items:center;flex:none}.marquee span{font-family:var(--serif);font-size:clamp(27px,3vw,40px);padding:22px 27px;white-space:nowrap}.marquee i{font-style:normal;opacity:.48}@keyframes marquee{to{transform:translateX(-50%)}}
+
+.section{padding:124px 0}.section-head{display:grid;grid-template-columns:170px minmax(0,1fr);gap:50px;align-items:start}.side-label{font-size:11px;text-transform:uppercase;letter-spacing:.16em;font-weight:700;color:var(--terra);padding-top:9px}.display{font-family:var(--serif);font-weight:400;font-size:clamp(42px,5.6vw,78px);line-height:.98;letter-spacing:-.03em;margin:0;text-wrap:balance}.display em{font-weight:400;color:var(--terra)}.body{color:var(--muted);font-size:17px;max-width:66ch}.intro{background:var(--paper-2)}.intro-copy{display:grid;grid-template-columns:1.4fr .6fr;gap:72px;align-items:end}.intro-copy .body{margin:0 0 8px}
+
+.story{background:var(--green);color:#fff;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr)}.story-media{min-height:760px;position:relative;overflow:hidden}.story-media img{position:absolute;inset:0;height:100%;transition:transform 1.2s var(--ease)}.story:hover .story-media img{transform:scale(1.025)}.story-copy{padding:96px clamp(34px,7vw,96px);display:flex;flex-direction:column;justify-content:center}.story-copy .display{max-width:620px}.story-copy .body{color:rgba(255,255,255,.72)}.story-copy .side-label{color:var(--peach);margin-bottom:22px;padding:0}.pillars{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.18);margin-top:46px}.pillar{padding:26px 18px 0 0}.pillar strong{display:block;font-family:var(--serif);font-size:27px;font-weight:400;margin-bottom:7px}.pillar p{font-size:12px;color:rgba(255,255,255,.58);margin:0}
+
+.menu-head{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:60px;align-items:end;margin-bottom:54px}.menu-head .body{margin:0}.dish-grid{display:grid;grid-template-columns:1.35fr .8fr .8fr;grid-auto-rows:260px;gap:14px}.dish{position:relative;overflow:hidden;background:#d8d0c4}.dish.large{grid-row:span 2}.dish.wide{grid-column:span 2}.dish img{height:100%;transition:transform .8s var(--ease),filter .5s}.dish:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 34%,rgba(0,0,0,.78))}.dish:hover img{transform:scale(1.045);filter:saturate(1.05)}.dish-info{position:absolute;z-index:2;left:23px;right:23px;bottom:21px;color:#fff}.dish-info h3{font-family:var(--serif);font-size:30px;font-weight:400;margin:0}.dish-info p{font-size:12px;margin:4px 0 0;color:rgba(255,255,255,.78)}
+.menu-note{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);margin-top:24px;padding-top:18px;font-size:12px;color:var(--muted)}.menu-note strong{color:var(--green);font-weight:700}
+
+.quote{background:var(--paper-2);padding:132px 20px}.quote-inner{max-width:990px;margin:auto;display:grid;grid-template-columns:130px 1fr;gap:38px}.quote-mark{font-family:var(--serif);font-size:150px;line-height:.6;color:var(--terra)}.quote h2{font-family:var(--serif);font-size:clamp(40px,5vw,67px);font-weight:400;line-height:1.03;letter-spacing:-.025em;margin:0}.quote p{color:var(--muted);font-size:14px;margin:24px 0 0}
+
+.reviews{background:#fff}.reviews-top{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;margin-bottom:48px}.rating-lockup{display:flex;align-items:end;gap:18px}.rating-lockup strong{font-family:var(--serif);font-weight:400;font-size:84px;line-height:.8}.stars{letter-spacing:2px;color:var(--terra)}.rating-lockup p{margin:0 0 2px;color:var(--muted);font-size:12px}.reviews-grid{display:grid;grid-template-columns:1.15fr .85fr .85fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.review{padding:38px 38px 42px 0}.review+.review{border-left:1px solid var(--line);padding-left:38px}.review .stars{font-size:13px;margin-bottom:24px}.review blockquote{font-family:var(--serif);font-size:25px;line-height:1.2;margin:0 0 24px}.review small{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.14em}
+
+.gallery{display:grid;grid-template-columns:1.2fr .8fr;min-height:650px;background:var(--green)}.gallery-main,.gallery-stack{min-width:0}.gallery img{height:100%}.gallery-stack{display:grid;grid-template-rows:1fr 1fr;gap:2px}.gallery-main{border-right:2px solid var(--paper)}.gallery-stack img+img{border-top:2px solid var(--paper)}
+
+.visit{background:var(--green);color:#fff;padding:116px 0}.visit-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:100px}.visit .display em{color:var(--peach)}.visit .body{color:rgba(255,255,255,.68)}.visit-meta{border-top:1px solid rgba(255,255,255,.18)}.info-row{display:grid;grid-template-columns:120px 1fr;gap:25px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.14)}.info-row h3{font-family:var(--serif);font-weight:400;font-size:25px;margin:0}.hours{display:grid;grid-template-columns:1fr auto;gap:7px 22px;font-size:13px;color:rgba(255,255,255,.68)}.hours b{font-weight:500;color:#fff}.visit-link{display:inline-flex;margin-top:24px;font-size:13px;font-weight:700;border-bottom:1px solid currentColor;padding-bottom:3px}
+
+.faq{padding:118px 0;background:var(--paper)}.faq-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px}.faq-intro{position:sticky;top:120px;align-self:start}.faq-list{border-top:1px solid var(--line)}.faq-item{border-bottom:1px solid var(--line)}.faq-item summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;cursor:pointer;font-family:var(--serif);font-size:24px}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary:after{content:"+";font-family:var(--sans);font-size:22px;color:var(--terra);transition:transform .25s}.faq-item[open] summary:after{transform:rotate(45deg)}.faq-item p{color:var(--muted);margin:-4px 0 26px;max-width:70ch}
+
+.cta{background:var(--terra);color:#fff;padding:112px 0}.cta-grid{display:grid;grid-template-columns:1fr auto;gap:70px;align-items:end}.cta .display em{color:#fff}.cta p{max-width:620px;color:rgba(255,255,255,.8);margin:20px 0 0}.cta .btn{background:#fff;color:var(--green);min-height:52px;padding-inline:24px}
+footer{background:#0e2923;color:#fff;padding:56px 0 30px}.footer-grid{display:grid;grid-template-columns:1fr auto;gap:60px}.footer-brand{font-family:var(--serif);font-size:37px}.footer-note{color:rgba(255,255,255,.58);font-size:13px}.footer-links{display:grid;grid-template-columns:repeat(2,auto);gap:10px 34px;font-size:12px;align-content:start}.footer-links a{color:rgba(255,255,255,.72)}.footer-links a:hover{color:#fff}.copyright{border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;margin-top:42px;padding-top:22px;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.42)}
+.mobile-bar{display:none}.whatsapp{position:fixed;right:20px;bottom:20px;z-index:45;display:flex;align-items:center;gap:10px;background:#fff;color:var(--green);padding:12px 15px;border-radius:999px;box-shadow:0 14px 35px rgba(10,36,28,.2);font-size:12px;font-weight:700}.whatsapp svg{width:18px;height:18px}
+
+.reveal{opacity:0;transform:translateY(28px);filter:blur(7px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease)}.reveal.visible{opacity:1;transform:none;filter:none}
+
+@media(max-width:900px){
+  .container{width:min(100% - 32px,1180px)}.nav-inner{grid-template-columns:1fr auto auto;gap:10px}.links{position:fixed;inset:0;background:var(--green);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;font-family:var(--serif);font-size:38px;transform:translateY(-102%);transition:transform .55s var(--ease);z-index:-1}.menu-open .links{transform:none}.nav .reserve{display:none}.menu-toggle{display:block}.menu-open .menu-toggle span:first-child{transform:translateY(7px) rotate(45deg)}.menu-open .menu-toggle span:nth-child(2){opacity:0}.menu-open .menu-toggle span:last-child{transform:translateY(-7px) rotate(-45deg)}
+  .hero-layout{grid-template-columns:1fr}.hero-aside{display:none}.hero-content{padding-bottom:64px}.scroll-cue{display:none}.intro-copy,.menu-head,.section-head{grid-template-columns:1fr;gap:22px}.side-label{padding:0}.story{grid-template-columns:1fr}.story-media{min-height:58vw}.story-copy{padding:78px 32px}.dish-grid{grid-template-columns:1fr 1fr;grid-auto-rows:280px}.dish.large{grid-row:span 2}.dish.wide{grid-column:span 1}.reviews-grid{grid-template-columns:1fr}.review,.review+.review{padding:30px 0;border-left:0;border-top:1px solid var(--line)}.reviews-grid .review:first-child{border-top:0}.gallery{min-height:520px}.visit-grid{grid-template-columns:1fr;gap:64px}.faq-layout{grid-template-columns:1fr;gap:50px}.faq-intro{position:static}.cta-grid{grid-template-columns:1fr;gap:34px}.footer-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  html{scroll-padding-top:74px}.container{width:min(100% - 28px,1180px)}.nav{padding:15px 0}.brand{font-size:23px}.hero{min-height:92svh}.hero-content{padding:128px 0 45px}.hero h1{font-size:clamp(54px,16vw,76px)}.hero-copy{font-size:16px;margin-top:22px}.actions{display:grid;grid-template-columns:1fr 1fr}.btn{padding-inline:13px}.marquee span{padding:18px 20px}.section{padding:86px 0}.display{font-size:clamp(40px,12vw,58px)}.intro-copy{gap:28px}.story-media{min-height:78vw}.story-copy{padding:64px 22px}.pillars{grid-template-columns:1fr}.pillar{border-bottom:1px solid rgba(255,255,255,.12);padding:20px 0}.pillar:last-child{border-bottom:0}.dish-grid{display:block}.dish{min-height:330px;margin-bottom:10px}.dish.large,.dish.wide{min-height:410px}.menu-note{align-items:flex-start;gap:18px}.quote{padding:92px 18px}.quote-inner{grid-template-columns:1fr;gap:12px}.quote-mark{font-size:90px}.reviews{padding:90px 0}.reviews-top{grid-template-columns:1fr}.rating-lockup strong{font-size:72px}.gallery{grid-template-columns:1fr;min-height:auto}.gallery-main{border:0}.gallery-main img{height:410px}.gallery-stack{grid-template-columns:1fr 1fr;grid-template-rows:none}.gallery-stack img{height:220px}.gallery-stack img+img{border-top:0;border-left:2px solid var(--paper)}.visit{padding:86px 0}.info-row{grid-template-columns:1fr;gap:10px}.faq{padding:88px 0}.faq-item summary{font-size:21px}.cta{padding:86px 0 118px}.footer-links{grid-template-columns:1fr 1fr}.copyright{padding-bottom:64px}.whatsapp{display:none}.mobile-bar{display:grid;grid-template-columns:1.3fr .8fr .9fr;position:fixed;left:10px;right:10px;bottom:10px;z-index:70;background:rgba(14,41,35,.96);color:#fff;padding:6px;border-radius:16px;box-shadow:0 12px 38px rgba(8,25,20,.28);backdrop-filter:blur(12px)}.mobile-bar a{min-height:48px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;border-right:1px solid rgba(255,255,255,.14)}.mobile-bar a:first-child{background:var(--peach);color:var(--green);border-radius:11px}.mobile-bar a:last-child{border:0}.reveal{filter:none;transform:translateY(18px)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.marquee-track{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}.hero-bg{transform:none!important}.dish img,.story-media img{transition:none}.btn,.reserve{transition:none}}
+
+
+/* ===== Premium scrolltelling layer ===== */
+.scroll-progress{position:fixed;left:0;top:0;z-index:90;width:100%;height:2px;pointer-events:none;background:rgba(255,255,255,.08)}
+.scroll-progress span{display:block;width:100%;height:100%;background:var(--peach);transform:scaleX(0);transform-origin:left center;will-change:transform}
+.hero-main h1{clip-path:inset(0 0 0 0)}
+.hero-main h1,.hero-copy,.hero-location,.hero .actions,.hero-aside{animation:heroEnter .9s var(--ease) both}
+.hero-copy{animation-delay:.12s}.hero .actions{animation-delay:.2s}.hero-aside{animation-delay:.28s}.hero-location{animation-delay:.04s}
+@keyframes heroEnter{from{opacity:0;transform:translateY(28px);filter:blur(9px)}to{opacity:1;transform:none;filter:none}}
+.hero:after{content:"";position:absolute;inset:auto -10% -32% auto;width:52vw;height:52vw;border:1px solid rgba(255,255,255,.12);border-radius:50%;z-index:1;pointer-events:none;transform:translate3d(calc(var(--hero-orbit-x,0)*1px),calc(var(--hero-orbit-y,0)*1px),0)}
+
+.experience{position:relative;height:300vh;background:#102b24;color:#fff}
+.experience-sticky{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;place-items:center}
+.experience-bg{position:absolute;inset:0;overflow:hidden}
+.experience-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,26,21,.91) 0%,rgba(8,26,21,.77) 42%,rgba(8,26,21,.24) 72%,rgba(8,26,21,.43) 100%)}
+.experience-bg img{height:100%;transform:scale(calc(1.08 - var(--exp-p,0)*.035)) translate3d(calc(var(--exp-p,0)*-1.5%),0,0);filter:saturate(calc(.82 + var(--exp-p,0)*.22));will-change:transform,filter}
+.experience-inner{position:relative;z-index:2;width:min(1180px,calc(100% - 40px));display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:70px;align-items:end}
+.experience-copy{align-self:center;max-width:820px}
+.experience-copy h2{font-family:var(--serif);font-weight:400;font-size:clamp(56px,8vw,108px);line-height:.88;letter-spacing:-.035em;margin:0;color:rgba(255,255,255,.5)}
+.experience-word-wrap{position:relative;height:1.04em;overflow:hidden;color:var(--peach)}
+.experience-word{position:absolute;inset:0;display:flex;align-items:center;opacity:0;transform:translateY(72%);filter:blur(9px);transition:opacity .45s var(--ease),transform .55s var(--ease),filter .45s var(--ease)}
+.experience-word.active{opacity:1;transform:none;filter:none}
+.experience-note{font-size:15px;color:rgba(255,255,255,.7);max-width:52ch;margin:30px 0 0}
+.experience-steps{align-self:center;border-left:1px solid rgba(255,255,255,.22);padding-left:28px;display:grid;gap:18px}
+.experience-step{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:center;font-size:12px;color:rgba(255,255,255,.45);transition:color .3s var(--ease)}
+.experience-step:before{content:"";width:18px;height:1px;background:currentColor;transform-origin:left;transform:scaleX(.42);transition:transform .35s var(--ease)}
+.experience-step.active{color:#fff}.experience-step.active:before{transform:scaleX(1)}
+.experience-count{font-variant-numeric:tabular-nums;color:rgba(255,255,255,.62);margin-top:18px;font-size:11px;letter-spacing:.14em}
+
+.story{--story-p:0}.story-media img{transform:scale(calc(1.08 - var(--story-p)*.06)) translate3d(0,calc((.5 - var(--story-p))*18px),0);will-change:transform}.story:hover .story-media img{transform:scale(calc(1.08 - var(--story-p)*.06)) translate3d(0,calc((.5 - var(--story-p))*18px),0)}
+.story-copy>*{opacity:.68;transform:translateX(0);transition:opacity .5s var(--ease)}.story.in-view .story-copy>*{opacity:1}
+
+.dish{--dish-p:.5}.dish img{transform:scale(1.09) translate3d(0,calc((.5 - var(--dish-p))*28px),0);will-change:transform}.dish:hover img{transform:scale(1.12) translate3d(0,calc((.5 - var(--dish-p))*28px),0)}
+.dish-info{transform:translateY(8px);transition:transform .45s var(--ease)}.dish:hover .dish-info{transform:none}
+
+.quote{overflow:hidden}.quote-inner h2{clip-path:inset(0 0 100% 0);transform:translateY(18px);transition:clip-path .9s var(--ease),transform .9s var(--ease)}.quote-inner.visible h2{clip-path:inset(0);transform:none}
+.quote-mark{transform:rotate(-8deg) scale(.8);transform-origin:center;transition:transform 1s var(--ease)}.quote-inner.visible .quote-mark{transform:rotate(0) scale(1)}
+
+.gallery{overflow:hidden}.gallery img{transform:scale(1.1);transition:transform 1.1s var(--ease),clip-path 1s var(--ease);will-change:transform}.gallery-main{clip-path:inset(0 0 100% 0);transition:clip-path 1.15s var(--ease)}.gallery-stack{clip-path:inset(100% 0 0 0);transition:clip-path 1.15s .08s var(--ease)}.gallery.gallery-visible .gallery-main,.gallery.gallery-visible .gallery-stack{clip-path:inset(0)}.gallery.gallery-visible img{transform:scale(1)}
+
+.section .display,.visit .display,.faq .display,.cta .display{transform-origin:left center}
+.magnetic{will-change:transform}
+
+@media(max-width:900px){
+ .experience-inner{grid-template-columns:1fr;gap:36px}.experience-steps{display:none}.experience-copy h2{font-size:clamp(54px,10vw,82px)}
+}
+@media(max-width:640px){
+ .scroll-progress{height:2px}.hero:after{width:86vw;height:86vw;right:-35%;bottom:-8%}
+ .experience{height:auto}.experience-sticky{position:relative;height:auto;min-height:100svh;padding:100px 0 80px;place-items:end start}
+ .experience-bg:after{background:linear-gradient(180deg,rgba(8,26,21,.28),rgba(8,26,21,.9) 60%,rgba(8,26,21,.97))}.experience-bg img{transform:scale(1.04)}
+ .experience-inner{width:min(100% - 28px,1180px);display:block}.experience-copy h2{font-size:clamp(50px,15vw,72px)}
+ .experience-word-wrap{height:auto;min-height:2.3em;overflow:visible;margin-top:8px}.experience-word{position:static;display:none;opacity:1;filter:none;transform:none}.experience-word.active{display:block}
+ .experience-note{margin-top:20px}
+ .story-media img,.dish img,.dish:hover img{transform:none!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .hero-main h1,.hero-copy,.hero-location,.hero .actions,.hero-aside{animation:none}.experience-bg img,.story-media img,.dish img{transform:none!important;filter:none!important}.experience-word{transition:none}.quote-inner h2{clip-path:inset(0);transform:none}.gallery-main,.gallery-stack{clip-path:inset(0)}.gallery img{transform:none}.scroll-progress{display:none}
+}
+
+</style>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"Restaurant",
   "name":"Casa Andina",
-  "description":"Restaurante peruano en Madrid con cocina peruana y toques de cocina local española.",
+  "description":"Restaurante peruano de ambiente familiar en Madrid.",
   "telephone":"+34612348927",
-  "servesCuisine":["Peruana","Española"],
+  "servesCuisine":["Peruvian","Spanish"],
   "priceRange":"€€",
-  "address":{"@type":"PostalAddress","streetAddress":"Calle del Jazmín, 17","postalCode":"28341","addressLocality":"Madrid","addressRegion":"Madrid","addressCountry":"ES"},
-  "geo":{"@type":"GeoCoordinates","latitude":40.1760554,"longitude":-3.687148},
+  "address":{"@type":"PostalAddress","streetAddress":"Calle del Jazmín, 17","postalCode":"28043","addressLocality":"Madrid","addressRegion":"Madrid","addressCountry":"ES"},
   "openingHoursSpecification":[
     {"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"13:00","closes":"23:00"},
     {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"13:00","closes":"01:00"},
@@ -84,103 +162,167 @@ footer{background:#102d27;color:#fff;padding:55px 0 30px}.footer-grid{display:fl
 </script>
 </head>
 <body>
-<nav class="nav" id="nav"><div class="container nav-inner">
-<a class="brand" href="#">CASA ANDINA</a>
-<div class="links"><a href="#historia">Nuestra historia</a><a href="#carta">La carta</a><a href="#opiniones">Opiniones</a><a href="#visitanos">El lugar</a></div>
-<a class="reserve" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa Andina." target="_blank" rel="noopener">Reservar mesa</a>
-</div></nav>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<nav class="nav" id="nav" aria-label="Navegación principal">
+  <div class="container nav-inner">
+    <a class="brand" href="#inicio" aria-label="Casa Andina, inicio">CASA ANDINA</a>
+    <div class="links" id="navLinks">
+      <a href="#historia">Nuestra historia</a><a href="#carta">La carta</a><a href="#opiniones">Opiniones</a><a href="#visitanos">El lugar</a><a href="#preguntas">Preguntas</a>
+    </div>
+    <a class="reserve magnetic" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa%20Andina." target="_blank" rel="noopener">Reservar mesa</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-controls="navLinks" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
 
-<header class="hero">
-<div class="hero-bg"></div><div class="container hero-content reveal">
-<div class="eyebrow">Madrid · Cocina peruana</div>
-<h1>Perú en la mesa.<br><em>Cariño</em> en cada plato.</h1>
-<p>Cocina peruana con alma familiar y pequeños guiños a nuestra tierra. Un lugar para venir a comer, quedarse a conversar y volver.</p>
-<div class="actions"><a class="btn primary" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa Andina." target="_blank">Reservar por WhatsApp</a><a class="btn secondary" href="#carta">Descubrir la carta</a></div>
-<div class="hero-meta"><span class="rating">★★★★★ 4,8</span><span>316 opiniones en Google</span><span>Calle del Jazmín, 17</span></div>
-</div></header>
+<header class="hero" id="inicio">
+  <div class="hero-bg" id="heroBg" role="img" aria-label="Mesa con platos de inspiración peruana"></div>
+  <div class="container hero-content" id="contenido">
+    <div class="hero-layout">
+      <div class="hero-main">
+        <div class="hero-location">Madrid · Cocina peruana</div>
+        <h1>Perú en la mesa.<br><em>Cariño</em> en cada plato.</h1>
+        <p class="hero-copy">Cocina peruana con alma familiar y pequeños guiños de aquí. Un lugar para venir a comer, quedarse a conversar y volver.</p>
+        <div class="actions"><a class="btn primary magnetic" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa%20Andina." target="_blank" rel="noopener">Reservar por WhatsApp</a><a class="btn secondary" href="#carta">Descubrir la carta</a></div>
+      </div>
+      <aside class="hero-aside" aria-label="Valoración y ubicación"><strong>4,8 ★</strong><p>316 opiniones en Google</p><strong>Madrid</strong><p>Calle del Jazmín, 17</p><a href="#visitanos">Ver horarios y cómo llegar</a></aside>
+    </div>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Desliza para descubrir</span>
+</header>
 
-<div class="text-loop-bar" aria-label="Frases de Casa Andina">
-<div class="text-loop" id="textLoop" aria-live="off">
-<div class="text-loop-track" id="textLoopTrack">
-<div class="text-loop-group">
-<span class="text-loop-item">Hecho para compartir.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Una mesa. Muchas historias.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Quédate un poco más.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Sabores que cruzaron un océano.</span><span class="text-loop-dot">•</span>
-</div>
-<div class="text-loop-group" aria-hidden="true">
-<span class="text-loop-item">Hecho para compartir.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Una mesa. Muchas historias.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Quédate un poco más.</span><span class="text-loop-dot">•</span>
-<span class="text-loop-item">Sabores que cruzaron un océano.</span><span class="text-loop-dot">•</span>
-</div>
-</div></div></div>
+<div class="marquee" aria-label="Frases de Casa Andina"><div class="marquee-track"><div class="marquee-group"><span>Hecho para compartir.</span><i>•</i><span>Una mesa. Muchas historias.</span><i>•</i><span>Quédate un poco más.</span><i>•</i><span>Sabores que cruzaron un océano.</span><i>•</i></div><div class="marquee-group" aria-hidden="true"><span>Hecho para compartir.</span><i>•</i><span>Una mesa. Muchas historias.</span><i>•</i><span>Quédate un poco más.</span><i>•</i><span>Sabores que cruzaron un océano.</span><i>•</i></div></div></div>
 
-<section class="section intro"><div class="container intro-grid reveal">
-<div><div class="kicker">Una forma de entender la mesa</div><h2 class="display">No venimos solo a servir comida.<br><em>Venimos a hacerte sentir en casa.</em></h2></div>
-<p class="body">En Casa Andina creemos que una buena mesa empieza mucho antes del primer bocado. Está en cómo te reciben, en el plato que llega al centro, en la conversación que se alarga y en esas ganas de volver que aparecen cuando menos te lo esperas.</p>
-</div></section>
+<main>
+<section class="section intro"><div class="container intro-copy reveal"><div><h2 class="display">No venimos solo a servir comida.<br><em>Venimos a hacerte sentir en casa.</em></h2></div><p class="body">En Casa Andina creemos que una buena mesa empieza mucho antes del primer bocado. Está en cómo te reciben, en el plato que llega al centro y en esa conversación que se alarga sin mirar el reloj.</p></div></section>
 
-<section class="story" id="historia"><div class="story-img"></div><div class="story-copy reveal">
-<div class="kicker">Nuestra historia</div><h2 class="display">Una mesa familiar,<br><em>abierta para todos.</em></h2>
-<p class="body">Casa Andina nace de algo sencillo: las ganas de compartir nuestra manera de entender la comida.</p>
-<p class="body">Una cocina con raíces peruanas, influencias de aquí y, sobre todo, mucho cariño detrás de cada plato.</p>
-<p class="body">Somos un restaurante familiar y queremos que eso se note. En el trato. En la cocina. En los pequeños detalles.</p>
-<div class="pillars"><div class="pillar"><strong>Raíces</strong><p>Sabores que vienen de lejos y forman parte de nuestra identidad.</p></div><div class="pillar"><strong>Producto</strong><p>Ingredientes que hablan por sí mismos.</p></div><div class="pillar"><strong>Casa</strong><p>Una cocina hecha para compartir, sin prisas y sin demasiadas reglas.</p></div></div>
-</div></section>
 
-<section class="section" id="carta"><div class="container">
-<div class="menu-head reveal"><div><div class="kicker">La carta</div><h2 class="display">Lo que pasa cuando<br><em>la mesa se llena.</em></h2></div><p class="body">Hay platos que pides para probar. Y hay platos que acabas recomendando a todo el mundo.</p></div>
-<div class="dish-grid">
-<article class="dish large reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&w=1200&q=85" alt="Ceviche"><div class="dish-info"><h3>Ceviche</h3><p>Fresco, cítrico y lleno de intensidad.</p></div></article>
-<article class="dish reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Lomo saltado"><div class="dish-info"><h3>Lomo saltado</h3><p>Perú y nuestra manera de cocinar.</p></div></article>
-<article class="dish reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85" alt="Tequeños"><div class="dish-info"><h3>Tequeños</h3><p>Crujientes y hechos para compartir.</p></div></article>
-<article class="dish wide reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1400&q=85" alt="Costillas BBQ"><div class="dish-info"><h3>Costillas BBQ</h3><p>Tiernas, sabrosas y para comer con las manos.</p></div></article>
-<article class="dish reveal"><img fetchpriority="high" loading="eager" decoding="async" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=85" alt="Arroz chaufa"><div class="dish-info"><h3>Arroz chaufa</h3><p>Sabor, wok y ese punto reconfortante.</p></div></article>
-<article class="dish reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" alt="Tarta de chocolate"><div class="dish-info"><h3>Postres</h3><p>Tres leches y chocolate para cerrar.</p></div></article>
-</div>
-</div></section>
+<section class="experience" id="experiencia" aria-label="La experiencia Casa Andina">
+  <div class="experience-sticky">
+    <div class="experience-bg"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2200&q=86" alt="Mesa servida para compartir en un restaurante"></div>
+    <div class="experience-inner">
+      <div class="experience-copy">
+        <h2>Una mesa para<div class="experience-word-wrap" aria-label="compartir, descubrir, quedarse y volver"><span class="experience-word active">compartir.</span><span class="experience-word">descubrir.</span><span class="experience-word">quedarse.</span><span class="experience-word">volver.</span></div></h2>
+        <p class="experience-note">La experiencia no empieza cuando llega el plato. Empieza cuando alguien dice “pedimos varios” y la mesa deja de ser de uno para ser de todos.</p>
+      </div>
+      <div class="experience-steps" aria-hidden="true"><div class="experience-step active">Compartir</div><div class="experience-step">Descubrir</div><div class="experience-step">Quedarse</div><div class="experience-step">Volver</div><div class="experience-count"><span id="experienceIndex">01</span> / 04</div></div>
+    </div>
+  </div>
+</section>
 
-<section class="quote"><div class="quote-mark">“</div><h2>Lo mejor de venir a Casa Andina no siempre está en el plato.</h2><p>Está en la mesa llena. En pedir “uno para compartir”. En quedarse un rato más.</p></section>
+<section class="story" id="historia"><div class="story-media"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1500&q=84" alt="Amigos compartiendo una comida en una mesa"></div><div class="story-copy"><span class="side-label">Nuestra historia</span><h2 class="display">Una mesa familiar,<br><em>abierta para todos.</em></h2><p class="body">Casa Andina nace de algo sencillo: las ganas de compartir nuestra manera de entender la comida.</p><p class="body">Una cocina con raíces peruanas, influencias de aquí y, sobre todo, mucho cariño detrás de cada plato.</p><div class="pillars"><div class="pillar"><strong>Raíces</strong><p>Sabores que vienen de lejos y forman parte de nuestra identidad.</p></div><div class="pillar"><strong>Producto</strong><p>Ingredientes reconocibles, tratados con respeto.</p></div><div class="pillar"><strong>Casa</strong><p>Una cocina hecha para compartir, sin prisas.</p></div></div></div></section>
 
-<section class="reviews" id="opiniones"><div class="container">
-<div class="reviews-top reveal"><div><div class="kicker">Lo dicen quienes ya se sentaron a nuestra mesa</div><h2 class="display">4,8 <em>★</em></h2></div><p class="body">316 opiniones en Google</p></div>
-<div class="reviews-grid">
-<article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Negocio familiar, gran ambiente, excelente servicio... mi lugar favorito para comer un buen ceviche en Madrid.”</blockquote><small>Cliente de Google</small></article>
-<article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Un lugar que sorprende desde el primer momento. El servicio es atento y muy amable, siempre asegurándose de que todo esté perfecto.”</blockquote><small>Cliente de Google</small></article>
-<article class="review reveal"><div class="stars">★★★★★</div><blockquote>“La mejor milanesa de mi vida, además los camareros súper atentos y el local precioso.”</blockquote><small>Cliente de Google</small></article>
+<section class="section" id="carta"><div class="container"><div class="menu-head reveal"><h2 class="display">Lo que pasa cuando<br><em>la mesa se llena.</em></h2><p class="body">Hay platos que pides para probar. Y hay platos que acabas recomendando a todo el mundo. Esta es una pequeña muestra de la casa.</p></div><div class="dish-grid">
+<article class="dish large"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&w=1200&q=84" alt="Ceviche servido con cítricos y hierbas"><div class="dish-info"><h3>Ceviche</h3><p>Fresco, cítrico y lleno de intensidad.</p></div></article>
+<article class="dish"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=84" alt="Plato de carne salteada con verduras"><div class="dish-info"><h3>Lomo saltado</h3><p>Perú, wok y nuestra manera de cocinar.</p></div></article>
+<article class="dish"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=84" alt="Aperitivo crujiente para compartir"><div class="dish-info"><h3>Tequeños</h3><p>Crujientes y hechos para compartir.</p></div></article>
+<article class="dish wide"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1400&q=84" alt="Costillas asadas con salsa"><div class="dish-info"><h3>Costillas BBQ</h3><p>Tiernas, sabrosas y para comer con las manos.</p></div></article>
+<article class="dish"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=84" alt="Arroz salteado con verduras"><div class="dish-info"><h3>Arroz chaufa</h3><p>Sabor, wok y ese punto reconfortante.</p></div></article>
+<article class="dish"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=84" alt="Tarta de chocolate para postre"><div class="dish-info"><h3>Postres</h3><p>Tres leches y chocolate para cerrar.</p></div></article>
+</div><div class="menu-note"><span>Selección de platos de la casa · Sitio demo</span><strong>Carta completa disponible próximamente</strong></div></div></section>
+
+<section class="quote"><div class="quote-inner reveal"><div class="quote-mark" aria-hidden="true">“</div><div><h2>Lo mejor de venir a Casa Andina no siempre está en el plato.</h2><p>Está en la mesa llena. En pedir “uno para compartir”. En quedarse un rato más.</p></div></div></section>
+
+<section class="section reviews" id="opiniones"><div class="container"><div class="reviews-top"><div><h2 class="display">Quien viene,<br><em>suele querer volver.</em></h2></div><div class="rating-lockup"><strong>4,8</strong><div><div class="stars" aria-label="5 estrellas">★★★★★</div><p>316 opiniones en Google</p></div></div></div><div class="reviews-grid">
+<article class="review"><div class="stars" aria-hidden="true">★★★★★</div><blockquote>“Negocio familiar, gran ambiente, excelente servicio... mi lugar favorito para comer un buen ceviche en Madrid.”</blockquote><small>Cliente de Google</small></article>
+<article class="review"><div class="stars" aria-hidden="true">★★★★★</div><blockquote>“Un lugar que sorprende desde el primer momento. El servicio es atento y muy amable.”</blockquote><small>Cliente de Google</small></article>
+<article class="review"><div class="stars" aria-hidden="true">★★★★★</div><blockquote>“La mejor milanesa de mi vida, además los camareros súper atentos y el local precioso.”</blockquote><small>Cliente de Google</small></article>
 </div></div></section>
 
-<section class="gallery"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=85" alt="Ambiente de restaurante"><div class="right"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85" alt="Mesa de restaurante"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1100&q=85" alt="Interior de restaurante"></div></section>
+<section class="gallery" aria-label="Ambiente de Casa Andina"><div class="gallery-main"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=84" alt="Sala cálida de restaurante preparada para el servicio"></div><div class="gallery-stack"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=84" alt="Mesa preparada para compartir"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1100&q=84" alt="Interior acogedor de restaurante"></div></section>
 
-<section class="visit" id="visitanos"><div class="container visit-grid"><div class="reveal"><div class="kicker">Ven a conocernos</div><h2 class="display">Tu mesa está<br><em>en Madrid.</em></h2><p class="body">Restaurante peruano en Madrid, Madrid.<br>Calle del Jazmín, 17 · 28043 Madrid</p><a class="btn primary" style="margin-top:18px" href="https://www.google.com/maps/search/?api=1&query=Calle%20del%20Jazm%C3%ADn%2C%2017%2C%2028043%20Madrid" target="_blank">Cómo llegar</a></div>
-<div class="reveal"><div class="info-block"><h3>Horarios</h3><div class="hours"><b>Jueves</b><span>13:00 – 23:00</span><b>Viernes</b><span>13:00 – 01:00</span><b>Sábado</b><span>13:00 – 01:00</span><b>Domingo</b><span>13:00 – 20:00</span><b>Lun – Mié</b><span>Cerrado</span></div></div><div class="info-block"><h3>Reservas</h3><p class="body">612 348 927<br>WhatsApp y teléfono</p></div></div></div></section>
+<section class="visit" id="visitanos"><div class="container visit-grid"><div class="reveal"><h2 class="display">Tu mesa está<br><em>en Madrid.</em></h2><p class="body">Calle del Jazmín, 17 · 28043 Madrid<br>Una dirección ficticia para esta demo.</p><a class="visit-link" href="https://www.google.com/maps/search/?api=1&query=Calle%20del%20Jazm%C3%ADn%2C%2017%2C%2028043%20Madrid" target="_blank" rel="noopener">Abrir en Google Maps ↗</a></div><div class="visit-meta"><div class="info-row"><h3>Horarios</h3><div class="hours"><b>Jueves</b><span>13:00 – 23:00</span><b>Viernes</b><span>13:00 – 01:00</span><b>Sábado</b><span>13:00 – 01:00</span><b>Domingo</b><span>13:00 – 20:00</span><b>Lun – Mié</b><span>Cerrado</span></div></div><div class="info-row"><h3>Reservas</h3><div><p class="body" style="margin:0">612 348 927<br>WhatsApp y teléfono</p><a class="visit-link" href="tel:+34612348927">Llamar ahora</a></div></div></div></div></section>
 
+<section class="faq" id="preguntas"><div class="container faq-layout"><div class="faq-intro"><h2 class="display">Antes de venir,<br><em>lo que quieres saber.</em></h2></div><div class="faq-list">
+<details class="faq-item"><summary>¿Dónde está Casa Andina?</summary><p>En esta demo usamos la dirección ficticia Calle del Jazmín, 17, 28043 Madrid.</p></details>
+<details class="faq-item"><summary>¿Cómo puedo reservar mesa?</summary><p>Puedes reservar directamente por WhatsApp en el 612 348 927. El botón de reserva abre una conversación preparada para solicitar mesa.</p></details>
+<details class="faq-item"><summary>¿Qué tipo de cocina ofrece?</summary><p>La propuesta parte de la cocina peruana y se encuentra con pequeños guiños locales. Entre los platos destacados están el ceviche, el lomo saltado, los tequeños y el arroz chaufa.</p></details>
+<details class="faq-item"><summary>¿Cuándo abre el restaurante?</summary><p>Jueves de 13:00 a 23:00; viernes y sábado de 13:00 a 01:00; domingo de 13:00 a 20:00. Lunes, martes y miércoles permanece cerrado.</p></details>
+<details class="faq-item"><summary>¿Dónde puedo ver la carta completa?</summary><p>Esta demo muestra una selección de platos. La web queda preparada para enlazar una carta completa en URL o PDF cuando exista el recurso definitivo.</p></details>
+</div></div></section>
 
-<section class="faq" id="preguntas"><div class="container"><div class="kicker">Preguntas frecuentes</div><h2 class="display">Antes de venir,<br><em>lo que quieres saber.</em></h2><div class="faq-grid"><article class="faq-item"><h3>¿Dónde está Casa Andina?</h3><p>Estamos en Calle del Jazmín, 17, 28043 Madrid.</p></article><article class="faq-item"><h3>¿Cómo puedo reservar mesa?</h3><p>Puedes reservar directamente por WhatsApp en el 612 348 927. El botón de reserva abre una conversación preparada para solicitar mesa.</p></article><article class="faq-item"><h3>¿Qué tipo de comida ofrece Casa Andina?</h3><p>Nuestra propuesta parte de la cocina peruana y se encuentra con pequeños toques de cocina local española. Entre los platos más conocidos están el ceviche, el lomo saltado, los tequeños y el arroz chaufa.</p></article><article class="faq-item"><h3>¿Cuándo abre el restaurante?</h3><p>Jueves de 13:00 a 23:00; viernes y sábado de 13:00 a 01:00; domingo de 13:00 a 20:00. Lunes, martes y miércoles permanecemos cerrados.</p></article><article class="faq-item"><h3>¿Dónde puedo ver la carta?</h3><p>En esta página puedes descubrir algunos de nuestros platos destacados. La carta completa queda preparada para enlazarla cuando tengamos su URL o PDF definitivo.</p></article></div></div></section>
-<section class="cta"><div class="container reveal"><h2 class="display">¿Nos sentamos<br><em>a la mesa?</em></h2><p>Escríbenos y reserva tu mesa directamente por WhatsApp. De nuestra familia a tu mesa.</p><a class="btn primary" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa Andina." target="_blank">Reservar por WhatsApp</a></div></section>
+<section class="cta"><div class="container cta-grid reveal"><div><h2 class="display">¿Nos sentamos<br><em>a la mesa?</em></h2><p>Escríbenos y reserva directamente por WhatsApp. Sin formularios innecesarios y con respuesta directa del restaurante.</p></div><a class="btn magnetic" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa%20Andina." target="_blank" rel="noopener">Reservar por WhatsApp</a></div></section>
+</main>
 
-<footer><div class="container"><div class="footer-grid"><div><div class="footer-brand">CASA ANDINA</div><p class="footer-note">Perú en la mesa. Cariño en cada plato.<br>Calle del Jazmín, 17 · Madrid, Madrid</p></div><div class="footer-links"><a href="#historia">Historia</a><a href="#carta">Carta</a><a href="#opiniones">Opiniones</a><a href="#visitanos">Visítanos</a><a href="#preguntas">FAQ</a><a href="tel:+34612348927">Llamar</a></div></div><div class="copyright"><span>© Casa Andina · Sitio demo</span><span>Madrid</span></div></div></footer>
+<footer><div class="container"><div class="footer-grid"><div><div class="footer-brand">CASA ANDINA</div><p class="footer-note">Perú en la mesa. Cariño en cada plato.<br>Calle del Jazmín, 17 · Madrid · Demo ficticia</p></div><div class="footer-links"><a href="#historia">Historia</a><a href="#carta">Carta</a><a href="#opiniones">Opiniones</a><a href="#visitanos">Visítanos</a><a href="#preguntas">Preguntas</a><a href="tel:+34612348927">Llamar</a></div></div><div class="copyright"><span>© Casa Andina · Sitio demo</span><span>Madrid</span></div></div></footer>
 
-<div class="mobile-bar"><a href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa Andina." target="_blank">Reservar</a><a href="tel:+34612348927">Llamar</a><a href="https://www.google.com/maps/search/?api=1&query=Calle%20del%20Jazm%C3%ADn%2C%2017%2C%2028043%20Madrid" target="_blank">Cómo llegar</a></div>
-<a class="whatsapp" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa Andina." target="_blank" aria-label="Reservar por WhatsApp">◔<span>Reservar por WhatsApp</span></a>
+<div class="mobile-bar" aria-label="Acciones rápidas"><a href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa%20Andina." target="_blank" rel="noopener">Reservar</a><a href="tel:+34612348927">Llamar</a><a href="https://www.google.com/maps/search/?api=1&query=Calle%20del%20Jazm%C3%ADn%2C%2017%2C%2028043%20Madrid" target="_blank" rel="noopener">Cómo llegar</a></div>
+<a class="whatsapp" href="https://wa.me/34612348927?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Restaurante%20Casa%20Andina." target="_blank" rel="noopener" aria-label="Reservar por WhatsApp"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.6A8 8 0 0 1 8.2 18.7L4 20l1.4-4a8 8 0 1 1 14.6-4.4Z" stroke="currentColor" stroke-width="1.8"/><path d="M8.4 8.1c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.3.1.5-.1.7l-.6.7c-.2.2-.1.4 0 .6.5.9 1.2 1.7 2.1 2.2.3.2.5.2.7 0l.8-1c.2-.2.4-.3.7-.1l1.8.8c.3.1.5.2.5.4.1.2.1 1-.3 1.6-.4.7-1.5 1.3-2.3 1.3-.8 0-2.8-.4-4.8-2.2-2.4-2.1-3.2-4.5-3.2-5.3 0-.8.3-1.2.6-1.6.2-.2.3-.4.5-.8Z" fill="currentColor"/></svg><span>Reservar por WhatsApp</span></a>
+
 <script>
 const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40));
+const menuToggle=document.getElementById('menuToggle');
+const navLinks=document.querySelectorAll('#navLinks a');
+const heroBg=document.getElementById('heroBg');
+const scrollProgress=document.getElementById('scrollProgress');
+const experience=document.querySelector('.experience');
+const experienceWords=[...document.querySelectorAll('.experience-word')];
+const experienceSteps=[...document.querySelectorAll('.experience-step')];
+const experienceIndex=document.getElementById('experienceIndex');
+const story=document.querySelector('.story');
+const dishes=[...document.querySelectorAll('.dish')];
+const gallery=document.querySelector('.gallery');
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let ticking=false;
 
-const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
-
-/* Infinite Text Loop — movimiento continuo sin saltos */
-const loopTrack=document.getElementById('textLoopTrack');
-if(loopTrack){
-  // La animación CSS desplaza dos copias idénticas del mismo contenido.
-  // Cuando termina la primera mitad, la segunda ya ocupa exactamente su lugar,
-  // por lo que el ciclo vuelve a empezar sin que se perciba ningún salto.
-  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
-  if(reduceMotion.matches){
-    loopTrack.style.animation='none';
+const clamp=(n,min=0,max=1)=>Math.min(max,Math.max(min,n));
+const elementProgress=(el)=>{
+  const r=el.getBoundingClientRect();
+  return clamp((window.innerHeight-r.top)/(window.innerHeight+r.height));
+};
+const updateMotion=()=>{
+  const y=window.scrollY;
+  nav.classList.toggle('scrolled',y>36);
+  if(scrollProgress){
+    const max=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);
+    scrollProgress.style.transform=`scaleX(${clamp(y/max)})`;
   }
+  if(!reduceMotion){
+    if(heroBg && y<window.innerHeight*1.2){
+      heroBg.style.transform=`scale(1.03) translate3d(0,${Math.min(y*.075,42)}px,0)`;
+      document.documentElement.style.setProperty('--hero-orbit-y',String(Math.min(y*.035,24)));
+    }
+    if(experience && window.innerWidth>640){
+      const r=experience.getBoundingClientRect();
+      const travel=Math.max(1,experience.offsetHeight-window.innerHeight);
+      const p=clamp(-r.top/travel);
+      experience.style.setProperty('--exp-p',p.toFixed(4));
+      const idx=Math.min(3,Math.floor(p*4));
+      experienceWords.forEach((el,i)=>el.classList.toggle('active',i===idx));
+      experienceSteps.forEach((el,i)=>el.classList.toggle('active',i===idx));
+      if(experienceIndex) experienceIndex.textContent=String(idx+1).padStart(2,'0');
+    }
+    if(story){story.style.setProperty('--story-p',elementProgress(story).toFixed(4));}
+    dishes.forEach(d=>d.style.setProperty('--dish-p',elementProgress(d).toFixed(4)));
+  }
+  ticking=false;
+};
+const onScroll=()=>{if(!ticking){requestAnimationFrame(updateMotion);ticking=true}};
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',onScroll,{passive:true});
+updateMotion();
+
+menuToggle.addEventListener('click',()=>{
+  const open=document.body.classList.toggle('menu-open');
+  menuToggle.setAttribute('aria-expanded',String(open));
+  menuToggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');
+});
+navLinks.forEach(link=>link.addEventListener('click',()=>{document.body.classList.remove('menu-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Abrir menú')}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('menu-open')){document.body.classList.remove('menu-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.focus()}});
+
+if('IntersectionObserver' in window){
+  const revealObs=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObs.unobserve(entry.target)}}),{threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el=>revealObs.observe(el));
+  const sceneObs=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add(entry.target===gallery?'gallery-visible':'in-view')}),{threshold:.18});
+  if(story)sceneObs.observe(story);if(gallery)sceneObs.observe(gallery);
+}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));if(story)story.classList.add('in-view');if(gallery)gallery.classList.add('gallery-visible')}
+
+if(!reduceMotion && matchMedia('(pointer:fine)').matches){
+  document.querySelectorAll('.magnetic').forEach(el=>{
+    el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)*.1;const y=(e.clientY-r.top-r.height/2)*.14;el.style.transform=`translate3d(${x}px,${y}px,0)`});
+    el.addEventListener('pointerleave',()=>{el.style.transform=''})
+  });
 }
 </script>
-</body></html>
+</body>
+</html>

@@ -1,14 +1,18 @@
-# Casa Andina — Demo ficticio
-Versión con Text Loop infinito y continuo.
+# Casa Andina — Demo premium scrolltelling
 
-El bloque de frases ahora funciona como una cinta editorial infinita:
-- Movimiento constante y suave, sin pausas entre frases.
-- La secuencia está duplicada para crear un loop matemáticamente continuo.
-- Al terminar la última frase, la primera reaparece inmediatamente fuera de la vista.
-- No hay regreso, rebote ni salto perceptible al inicio.
-- Velocidad: 28 segundos por ciclo completo.
-- Respeta `prefers-reduced-motion` para usuarios que reducen animaciones.
+Demo estática lista para abrir en navegador o desplegar en Netlify/Vercel/GitHub Pages.
 
+## Qué incluye
+- Hero editorial con entrada cinematográfica y parallax suave.
+- Barra de progreso de lectura.
+- Secuencia sticky de scrolltelling “Compartir / Descubrir / Quedarse / Volver”.
+- Fotografía y carta con movimiento ligado al scroll.
+- Reveal editorial para cita y galería.
+- Microinteracciones magnéticas en CTA solo con puntero fino.
+- Responsive específico para móvil: el scrolltelling se convierte en una escena estática clara, sin sticky pesado.
+- Soporte para `prefers-reduced-motion`.
+- Navegación móvil, foco de teclado y accesibilidad básica conservados.
+- Datos ficticios coherentes en contenido y JSON-LD.
 
-## Favicon
-Incluye favicon.ico, favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png y favicon-512.png. Las referencias ya están añadidas al <head> de index.html.
+## Uso
+Abre `index.html`. Para producción, sustituye teléfono, dirección, horarios, reseñas e imágenes demo por los activos reales del cliente.
